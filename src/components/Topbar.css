@@ -1,0 +1,14 @@
+.topbarlink {
+  color: blanchedalmond;
+  margin-right: 2vw;
+}
+
+.topbarlink:hover {
+  color: blanchedalmond;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.topbaritem {
+  text-align: right;
+}

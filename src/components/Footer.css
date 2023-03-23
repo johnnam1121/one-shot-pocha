@@ -1,0 +1,28 @@
+.footerCol {
+  margin: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contactLabel {
+  margin-top: 3vh;
+}
+
+.footerText {
+  color: blanchedalmond;
+}
+
+.footerlink {
+  color: blanchedalmond;
+  margin-right: 2vw;
+}
+
+.footerlink:hover {
+  color: blanchedalmond;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footeritem {
+  text-align: right;
+}
