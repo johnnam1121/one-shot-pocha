@@ -20,13 +20,13 @@ class LandingPage extends Component {
           }}>
           <TopBar />
           <Row style={{ marginTop: '40vh', marginBottom: '10vh' }}>
-            <Col md={{ span: 4, offset: 2 }}>
+            <Col lg={{ span: 4, offset: 2 }}>
               <img
                 className='img-fluid landingimage removeImage'
                 src={require('../assets/chickenflag.jpg')}
                 alt="chicken with korean flag" />
             </Col>
-            <Col md={{ span: 4 }} className='opaicCol text-center'>
+            <Col lg={{ span: 4 }} className='opaicCol text-center'>
               <h1 className='welcome'>Welcome to <br />One-Shot!</h1>
               <h4 className='welcomeMessage'>
                 Some info here fillerSome info here fillerSome info here fillerSome info here

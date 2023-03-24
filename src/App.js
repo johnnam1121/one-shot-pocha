@@ -1,18 +1,18 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './components/pages/HomePage';
 import MenuPage from './components/pages/MenuPage';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <HashRouter>
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/Menu' element={<MenuPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Menu" element={<MenuPage />} />
         </Routes>
-      </div>
-    </Router>
+      </HashRouter>
+    </div>
   );
 }
 

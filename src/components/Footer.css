@@ -12,9 +12,25 @@
   color: blanchedalmond;
 }
 
+.footeritem {
+  text-align: right;
+}
+
+.footerimg {
+  background-color: rgba(255, 255, 255, 0.032);
+  border-radius: 50%;
+}
+
 .footerlink {
+  color: blanchedalmond !important;
+}
+
+.footerlink:visited {
   color: blanchedalmond;
-  margin-right: 2vw;
+}
+
+.footerlink:active {
+  color: blanchedalmond;
 }
 
 .footerlink:hover {
@@ -23,6 +39,10 @@
   text-decoration: underline;
 }
 
-.footeritem {
-  text-align: right;
+.footerinput {
+  background-color: #56595c79;
+}
+
+.footerbutton {
+  margin-top: 3vh;
 }

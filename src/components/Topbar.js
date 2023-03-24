@@ -1,5 +1,7 @@
 import React from 'react';
-import { Col, Container, Navbar, Row } from 'react-bootstrap';
+import { Col, Container, Navbar, Row, Nav } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+
 import './Topbar.css'
 
 function TopBar() {
@@ -8,7 +10,7 @@ function TopBar() {
       <Row className='shadow-lg align-items-center'>
         <Col>
           <Navbar.Brand href="/">
-            <img src={require('../assets/logoname.jpg')} alt="logo" width="110" height="50" className="d-inline-block align-top rounded" />
+            <img src={require('../assets/logoname.png')} alt="logo" width="150" height="55" className="d-inline-block align-top rounded topbarlogo" />
           </Navbar.Brand>
         </Col>
         <Col className='d-flex justify-content-end'>
@@ -19,9 +21,10 @@ function TopBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbar-collapse">
               <ul className="navbar-nav">
-                <li className='topbaritem'><a className='topbarlink' href='/Menu'>Menu</a></li>
-                <li className='topbaritem'><a className='topbarlink' href='/Reservations'>Reservations</a></li>
-                <li className='topbaritem'><a className='topbarlink' href='/Test'>Test</a></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/">Home</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Menu">Menu</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Reservations">Reservations</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/ArmyCounterPage">Army Counters</Nav.Link></li>
               </ul>
             </div>
           </nav>
