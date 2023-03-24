@@ -30,8 +30,9 @@ class Footer extends Component {
             <ul className="navbar-nav">
               <li><Nav.Link className='footerlink navlink' as={Link} to="/">Home</Nav.Link></li>
               <li><Nav.Link className='footerlink navlink' as={Link} to="/Menu">Menu</Nav.Link></li>
-              <li><Nav.Link className='footerlink navlink' as={Link} to="/Reservations">Reservations</Nav.Link></li>
-              <li><Nav.Link className='footerlink navlink' as={Link} to="/ArmyCounterPage">Army Counters</Nav.Link></li>
+              <li><Nav.Link className='footerlink navlink' as={Link} to="/Gallery">Gallery</Nav.Link></li>
+              <li><Nav.Link className='footerlink navlink' as={Link} to="/Reservation">Reservations</Nav.Link></li>
+              <li><Nav.Link className='footerlink navlink' as={Link} to="/AboutUs">About Us</Nav.Link></li>
             </ul>
             <h4 className='footerText' style={{ marginTop: '5vh' }}>Operation Hours</h4>
             <p className='footerText'>Everyday<br />

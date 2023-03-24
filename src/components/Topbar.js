@@ -23,8 +23,9 @@ function TopBar() {
               <ul className="navbar-nav">
                 <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/">Home</Nav.Link></li>
                 <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Menu">Menu</Nav.Link></li>
-                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Reservations">Reservations</Nav.Link></li>
-                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/ArmyCounterPage">Army Counters</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Gallery">Gallery</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/Reservation">Reservations</Nav.Link></li>
+                <li className='topbaritem'><Nav.Link className='topbarlink navlink' as={Link} to="/AboutUs">About Us</Nav.Link></li>
               </ul>
             </div>
           </nav>
