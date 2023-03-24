@@ -1,16 +1,19 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import Footer from '../Footer'
 import TopBar from '../Topbar'
+import Menu from '../Menu'
 
-function Menu() {
+function MenuPage() {
   return (
     <Container fluid>
       <Row>
         <TopBar />
-        <h1>Test</h1>
+        <Menu />
+        <Footer />
       </Row>
     </Container>
   )
 }
 
-export default Menu
+export default MenuPage

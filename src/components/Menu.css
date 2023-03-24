@@ -1,0 +1,30 @@
+.menuPageBackground {
+  background-color: #242526;
+}
+
+.menuBackground {
+  /* background-color: rgba(0, 106, 78, 0.9); */
+  background-color: #2d2e30;
+  border: white;
+  border-style: solid;
+  border-width: 2px;
+  width: 80vw;
+}
+
+.dollars {
+  float: right;
+  text-align: right;
+}
+
+.specialCocktails {
+  float: right;
+  text-align: right;
+}
+
+.menuHeading {
+  color: #006a4e;
+}
+
+.menuText {
+  color: blanchedalmond;
+}
