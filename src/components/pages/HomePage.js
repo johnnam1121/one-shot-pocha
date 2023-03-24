@@ -8,6 +8,7 @@ function Home() {
   return (
     <Container fluid>
       <Row>
+        <TopBar />
         <LandingPage />
         <Footer />
       </Row>

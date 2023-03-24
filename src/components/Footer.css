@@ -17,8 +17,15 @@
 }
 
 .footerimg {
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.032);
   border-radius: 50%;
+}
+
+.footerimg2 {
+  width: 50vw;
+  border-radius: 40%;
+  opacity: 0.9;
 }
 
 .footerlink {
@@ -39,10 +46,15 @@
   text-decoration: underline;
 }
 
-.footerinput {
-  background-color: #56595c79;
+.footerbutton {
+  color: blanchedalmond;
+  font-size: 1.5em;
+  background-color: #006a4e;
+  border-radius: 12px;
+  border: 2px solid #333333;
 }
 
-.footerbutton {
-  margin-top: 3vh;
+.socials {
+  display: flex;
+  justify-content: space-around;
 }

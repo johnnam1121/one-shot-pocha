@@ -1,11 +1,16 @@
+.landingbackground {
+  background-color: #242526;
+}
+
 .opaicCol {
   background-color: rgba(0, 106, 78, 0.05);
   border-radius: 15%;
 }
 
 .landingimage {
-  width: 50vw;
-  border-radius: 65%;
+  height: 60%;
+  width: 60%;
+  border-radius: 10%;
   opacity: 0.9;
 }
 
@@ -15,7 +20,7 @@
   }
 }
 
-.welcome {
+.landingH1 {
   color: beige;
   font-size: 3em;
 }
@@ -27,9 +32,32 @@
 .menuButton {
   color: blanchedalmond;
   font-size: 2em;
+  background-color: #770000;
+  border-radius: 12px;
+  border: 2px solid #333333;
+}
+
+.infoButton {
+  color: blanchedalmond;
+  font-size: 2em;
   background-color: #006a4e;
   border-radius: 12px;
   border: 2px solid #333333;
+}
+
+.koreanFood {
+  color: beige;
+  text-shadow: 5px 5px #770000;
+}
+
+.karaokeNight {
+  color: beige;
+  text-shadow: 5px 5px #006a4e;
+}
+
+.koreaNight {
+  height: 45vh;
+  width: 100vw;
 }
 
 /* red 770000

@@ -7,7 +7,7 @@ import './Topbar.css'
 function TopBar() {
   return (
     <Container fluid >
-      <Row className='shadow-lg align-items-center'>
+      <Row className='shadow-lg align-items-center topbar'>
         <Col>
           <Navbar.Brand href="/">
             <img src={require('../assets/logoname.png')} alt="logo" width="150" height="55" className="d-inline-block align-top rounded topbarlogo" />
