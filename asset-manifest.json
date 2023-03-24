@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/one-shot-pocha/static/css/main.70aa3149.css",
-    "main.js": "/one-shot-pocha/static/js/main.eab42f52.js",
+    "main.css": "/one-shot-pocha/static/css/main.a3e2f995.css",
+    "main.js": "/one-shot-pocha/static/js/main.d227de82.js",
     "static/js/787.c4e7f8f9.chunk.js": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js",
     "static/media/bottlewalldark.jpeg": "/one-shot-pocha/static/media/bottlewalldark.479532afadc5024cb2db.jpeg",
     "static/media/chickenflag.jpg": "/one-shot-pocha/static/media/chickenflag.a4f47e501dfec300ab1d.jpg",
-    "static/media/logoname.jpg": "/one-shot-pocha/static/media/logoname.6b6991f9b4367bd96445.jpg",
-    "static/media/logo.jpg": "/one-shot-pocha/static/media/logo.b05b2faf8cc7423a86b1.jpg",
+    "static/media/logoname.png": "/one-shot-pocha/static/media/logoname.b567cb363039f8972cc8.png",
+    "static/media/logo.png": "/one-shot-pocha/static/media/logo.7dabbc7ad15c42dbe2b0.png",
     "index.html": "/one-shot-pocha/index.html",
-    "main.70aa3149.css.map": "/one-shot-pocha/static/css/main.70aa3149.css.map",
-    "main.eab42f52.js.map": "/one-shot-pocha/static/js/main.eab42f52.js.map",
+    "main.a3e2f995.css.map": "/one-shot-pocha/static/css/main.a3e2f995.css.map",
+    "main.d227de82.js.map": "/one-shot-pocha/static/js/main.d227de82.js.map",
     "787.c4e7f8f9.chunk.js.map": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70aa3149.css",
-    "static/js/main.eab42f52.js"
+    "static/css/main.a3e2f995.css",
+    "static/js/main.d227de82.js"
   ]
 }
