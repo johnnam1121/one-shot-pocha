@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Footer from '../Footer'
-import Gallery from '../Gallery'
+import ImageGallery from '../ImageGallery'
 import TopBar from '../Topbar'
 
 function GalleryPage() {
@@ -9,7 +9,7 @@ function GalleryPage() {
     <Container fluid>
       <Row>
         <TopBar />
-        <Gallery />
+        <ImageGallery />
         <Footer />
       </Row>
     </Container>

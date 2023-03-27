@@ -58,3 +58,9 @@
   display: flex;
   justify-content: space-around;
 }
+
+.inputField {
+  background-color: rgba(255, 255, 255, 0.032);
+  color: blanchedalmond;
+  margin-bottom: 1vh;
+}

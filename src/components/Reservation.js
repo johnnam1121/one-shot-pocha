@@ -1,11 +1,26 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import { InlineWidget } from "react-calendly";
 
 function Reservation() {
   return (
     <Container fluid>
-      <Row style={{ backgroundColor: '#333333', height: '40vh' }}>
-        <h1 className='footerText'>Coming Soon!</h1>
+      <Row style={{ backgroundColor: '#333333' }}>
+        <div className="App">
+          <InlineWidget
+            styles={{
+              height: '125vh'
+            }}
+
+            pageSettings={{
+              backgroundColor: '2d2e30',
+              hideEventTypeDetails: false,
+              hideLandingPageDetails: false,
+              primaryColor: '006a4e',
+              textColor: 'ffebcd'
+            }}
+            url="https://calendly.com/johnnam1121" />
+        </div>
       </Row>
     </Container>
   )
