@@ -19,6 +19,8 @@
 
 .topbarlink:hover {
   color: blanchedalmond;
+  scale: 1.05;
+  text-shadow: 2px 2px #770000;
   background-color: transparent;
   text-decoration: underline;
 }

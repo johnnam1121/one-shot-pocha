@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import React from 'react';
+import { Container, Row } from 'react-bootstrap';
 import { InlineWidget } from "react-calendly";
 
 function Reservation() {

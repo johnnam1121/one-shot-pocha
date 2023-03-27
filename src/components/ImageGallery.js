@@ -27,21 +27,26 @@ const imgSet3 = [Img11, Img12, Img13, Img14, Img15,]
 function ImageGallery() {
   return (
     <Container fluid className='galleryBackground'>
-      <Row >
+      <Row className='align-items-center text-center'>
         <h4 className='galleryHeading'>Check us out on instagram!</h4>
-        <Col md={{ span: 4 }}>
-          {imgSet1.map(image =>
-            <img className='img-fluid mb-3' key={image} src={image} />)
-          }
-        </Col>
-        <Col md={{ span: 4 }}>
-          {imgSet2.map(image =>
-            <img className='img-fluid mb-3' key={image} src={image} />)
-          }
-        </Col>
-        <Col md={{ span: 4 }}>
+        <Col md={{ span: 3 }}>
           {imgSet3.map(image =>
-            <img className='img-fluid mb-3' key={image} src={image} />)
+            <img className='galleryImage mb-3' key={image} src={image} />)
+          }
+        </Col>
+        <Col md={{ span: 3 }}>
+          {imgSet3.map(image =>
+            <img className='galleryImage mb-3' key={image} src={image} />)
+          }
+        </Col>
+        <Col md={{ span: 3 }}>
+          {imgSet3.map(image =>
+            <img className='galleryImage mb-3' key={image} src={image} />)
+          }
+        </Col>
+        <Col md={{ span: 3 }}>
+          {imgSet3.map(image =>
+            <img className='galleryImage mb-3' key={image} src={image} />)
           }
         </Col>
       </Row>

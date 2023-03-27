@@ -1,6 +1,6 @@
-import './Footer.css';
 import { useForm, ValidationError } from '@formspree/react';
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 function EmailSubmit() {
   const [state, handleSubmit] = useForm("xrgvawda");

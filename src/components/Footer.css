@@ -30,6 +30,7 @@
 
 .footerlink {
   color: blanchedalmond !important;
+  text-decoration: none;
 }
 
 .footerlink:visited {
@@ -41,7 +42,9 @@
 }
 
 .footerlink:hover {
-  color: blanchedalmond;
+  /* color: #770000; */
+  scale: 1.05;
+  text-shadow: 2px 2px #770000;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -52,6 +55,9 @@
   background-color: #006a4e;
   border-radius: 12px;
   border: 2px solid #333333;
+}
+.footerbutton:hover {
+  scale: 1.05;
 }
 
 .socials {

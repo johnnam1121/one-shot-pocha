@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Col, Container, Navbar, Row, Nav, Form, Button, FloatingLabel } from 'react-bootstrap';
+import React from 'react';
+import { Col, Container, Nav, Row } from 'react-bootstrap';
+import { FaCopyright, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp, FaCopyright } from 'react-icons/fa';
 import EmailSubmit from './EmailSubmit';
 
 function Footer() {
@@ -41,10 +41,14 @@ function Footer() {
         <Col md={{ span: 3 }} className='text-center mt-5' >
           <h4 className='footerText'>Location</h4>
           <img src={require('../assets/logo.png')} alt="logo" className='footerimg' />
-          <p className='footerText'>9501 Long Point Rd <br />
-            Houston, TX 77055<br />
-            Spring Branch<br />
-            <a className='footerlink' href="tel::+7134678877"><FaPhone /> 713 467-8877</a></p>
+          <p className='footerlink mt-3'>
+            <a className='footerlink' href='https://goo.gl/maps/pd3CCTGdsXHf5i9r9' target="_blank" rel="noopener noreferrer" >
+              9501 Long Point Rd <br />
+              Houston, TX 77055<br />
+              Spring Branch
+            </a>
+          </p>
+          <p className='footerlink'><a className='footerlink' href="tel::+7134678877"><FaPhone /> 713 467-8877</a></p>
         </Col>
         <Col md={{ span: 3 }} className='text-center mt-5' >
           <EmailSubmit />

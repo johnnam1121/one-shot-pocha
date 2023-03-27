@@ -1,8 +1,7 @@
 import React from 'react';
-import { Col, Container, Navbar, Row, Nav } from 'react-bootstrap';
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-
-import './Topbar.css'
+import './Topbar.css';
 
 function TopBar() {
   return (

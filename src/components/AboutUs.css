@@ -1,3 +1,9 @@
+@media (max-width: 700px) {
+  .removeImage {
+    display: none;
+  }
+}
+
 .aboutBackground {
   background-color: #242526;
 }
@@ -5,4 +11,15 @@
 .aboutHeading {
   color: beige;
   font-size: 3em;
+}
+
+.aboutUsButton {
+  color: blanchedalmond;
+  font-size: 1em;
+  background-color: #006a4e;
+  border-radius: 12px;
+  border: 2px solid #333333;
+}
+.aboutUsButton:hover {
+  scale: 1.05;
 }

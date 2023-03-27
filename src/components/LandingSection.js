@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter, FaYelp } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 import bottlewall from '../assets/bottlewalldark.jpeg';
-import tintedRestaurant from '../assets/tintedRestaurant.jpg';
 import koreaNight from '../assets/koreaNight.jpg';
+import tintedRestaurant from '../assets/tintedRestaurant.jpg';
 import './LandingSection.css';
 
 class LandingPage extends Component {
@@ -80,7 +80,7 @@ class LandingPage extends Component {
           </Col>
           <Col className='text-center' md={{ span: 4 }}>
             <h1 className='landingH1'>Karaoke all <span className='karaokeNight'>Night!!!</span></h1>
-            <button className='infoButton'><Nav.Link className='navlink' as={Link} to="/Menu">More Info</Nav.Link></button>
+            <button className='infoButton'><Nav.Link className='navlink' as={Link} to="/Reservation">More Info</Nav.Link></button>
           </Col>
         </Row>
         {/* Korea night banner */}
