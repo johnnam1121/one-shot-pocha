@@ -1,53 +1,53 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import './ImageGallery.css'
-
-import Img1 from '../assets/pexels1.jpg';
-import Img2 from '../assets/pexels2.jpg';
-import Img3 from '../assets/pexels3.jpg';
-import Img4 from '../assets/pexels4.jpg';
-import Img5 from '../assets/pexels1.jpg';
-
-import Img6 from '../assets/pexels2.jpg';
-import Img7 from '../assets/pexels3.jpg';
-import Img8 from '../assets/pexels4.jpg';
-import Img9 from '../assets/pexels1.jpg';
-import Img10 from '../assets/pexels2.jpg';
-
-import Img11 from '../assets/pexels3.jpg';
-import Img12 from '../assets/pexels4.jpg';
-import Img13 from '../assets/pexels1.jpg';
-import Img14 from '../assets/pexels2.jpg';
-import Img15 from '../assets/pexels3.jpg';
-
-const imgSet1 = [Img1, Img2, Img3, Img4, Img5]
-const imgSet2 = [Img6, Img7, Img8, Img9, Img10,]
-const imgSet3 = [Img11, Img12, Img13, Img14, Img15,]
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import './ImageGallery.css';
+import { photos1 } from './Photos';
+import { photos2 } from './Photos';
+import { photos3 } from './Photos';
+import { photos4 } from './Photos';
+import { FaCopyright, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp } from 'react-icons/fa';
 
 function ImageGallery() {
   return (
     <Container fluid className='galleryBackground'>
-      <Row className='align-items-center text-center'>
-        <h4 className='galleryHeading'>Check us out on instagram!</h4>
-        <Col md={{ span: 3 }}>
-          {imgSet3.map(image =>
-            <img className='galleryImage mb-3' key={image} src={image} />)
-          }
+      <Row className='col-xs-6 mt-3'>
+        <h1 className='mobileHeading mobileHeadingHide'>Check out our Instagram! <a className='galleryInstaLink' target="_blank" rel="noopener noreferrer" href='https://www.instagram.com/oneshot.htx/?hl=en'><FaInstagram size={'2em'} /></a>
+        </h1>
+        <Col md={{ span: 2, offset: 2 }} className='galleryColumn'>
+          {photos1.map((item) => {
+            return (
+              <a className='galleryLink' href={item.link} target="_blank" rel="noopener noreferrer" >
+                <img className='img-fluid mobileImage galleryImage' src={item.src} />
+              </a>
+            )
+          })}
         </Col>
-        <Col md={{ span: 3 }}>
-          {imgSet3.map(image =>
-            <img className='galleryImage mb-3' key={image} src={image} />)
-          }
+        <Col md={{ span: 2 }} className='galleryColumn'>
+          {photos2.map((item) => {
+            return (
+              <a className='galleryLink' href={item.link} target="_blank" rel="noopener noreferrer" >
+                <img className='img-fluid mobileImage galleryImage' src={item.src} />
+              </a>
+            )
+          })}
         </Col>
-        <Col md={{ span: 3 }}>
-          {imgSet3.map(image =>
-            <img className='galleryImage mb-3' key={image} src={image} />)
-          }
+        <Col md={{ span: 2 }} className='galleryColumn'>
+          {photos3.map((item) => {
+            return (
+              <a className='galleryLink' href={item.link} target="_blank" rel="noopener noreferrer" >
+                <img className='img-fluid mobileImage galleryImage' src={item.src} />
+              </a>
+            )
+          })}
         </Col>
-        <Col md={{ span: 3 }}>
-          {imgSet3.map(image =>
-            <img className='galleryImage mb-3' key={image} src={image} />)
-          }
+        <Col md={{ span: 2 }} className='galleryColumn'>
+          {photos4.map((item) => {
+            return (
+              <a className='galleryLink' href={item.link} target="_blank" rel="noopener noreferrer" >
+                <img className='img-fluid mobileImage galleryImage' src={item.src} />
+              </a>
+            )
+          })}
         </Col>
       </Row>
     </Container>

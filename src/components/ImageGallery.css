@@ -3,10 +3,65 @@
 }
 
 .galleryHeading {
-  color: beige;
+  color: blanchedalmond;
   font-size: 3em;
 }
 
 .galleryImage {
-  width: 40%;
+  margin-top: 2vh;
+}
+
+.galleryImage:hover {
+  filter: grayscale(1);
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: .5s;
+
+}
+
+.galleryColumn {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 106, 78, 0.25);
+}
+
+.galleryLink {
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .mobileImage {
+    width: 60%;
+    overflow: hidden;
+    margin-top: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.mobileHeadingHide {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .mobileHeading {
+    text-align: center;
+    align-items: center;
+    color: blanchedalmond;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+  }
+}
+
+.galleryInstaLink {
+  color: blanchedalmond;
+}
+
+.galleryInstaLink:hover {
+  color: #770000;
+  transition: .5s;
+  scale: 1.05;
 }

@@ -8,7 +8,6 @@ function GalleryPage() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-
   return (
     <Container fluid>
       <Row>

@@ -19,7 +19,7 @@ function Reservation() {
               primaryColor: '006a4e',
               textColor: 'ffebcd'
             }}
-            url="https://calendly.com/johnnam1121" />
+            url="https://calendly.com/oneshot-htx" />
         </div>
       </Row>
     </Container>
