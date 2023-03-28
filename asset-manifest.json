@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/one-shot-pocha/static/css/main.8f61eb34.css",
-    "main.js": "/one-shot-pocha/static/js/main.abbb17a2.js",
+    "main.css": "/one-shot-pocha/static/css/main.308600ec.css",
+    "main.js": "/one-shot-pocha/static/js/main.a2a85c44.js",
     "static/js/787.a1aeabb7.chunk.js": "/one-shot-pocha/static/js/787.a1aeabb7.chunk.js",
-    "static/media/pexels2.jpg": "/one-shot-pocha/static/media/pexels2.3dabc805d17c504d2ecd.jpg",
     "static/media/pexels1.jpg": "/one-shot-pocha/static/media/pexels1.85cc7d17f98e49325816.jpg",
-    "static/media/pexels4.jpg": "/one-shot-pocha/static/media/pexels4.1dfc2cea2897d16a1959.jpg",
-    "static/media/pexels3.jpg": "/one-shot-pocha/static/media/pexels3.1d5f96b7a8b23f9f2f7b.jpg",
     "static/media/koreaNight.jpg": "/one-shot-pocha/static/media/koreaNight.b38e26ec48855d2054a7.jpg",
     "static/media/IU.jpg": "/one-shot-pocha/static/media/IU.e359a4e5d2865b5f5da5.jpg",
     "static/media/armysoup.jpg": "/one-shot-pocha/static/media/armysoup.932496fbbf41d21efb6d.jpg",
@@ -20,12 +17,12 @@
     "static/media/sojulight2.jpg": "/one-shot-pocha/static/media/sojulight2.ffa93cb1e6fbd3cc8c9a.jpg",
     "static/media/sojulight.jpg": "/one-shot-pocha/static/media/sojulight.d0fc696b56bd9880a46f.jpg",
     "index.html": "/one-shot-pocha/index.html",
-    "main.8f61eb34.css.map": "/one-shot-pocha/static/css/main.8f61eb34.css.map",
-    "main.abbb17a2.js.map": "/one-shot-pocha/static/js/main.abbb17a2.js.map",
+    "main.308600ec.css.map": "/one-shot-pocha/static/css/main.308600ec.css.map",
+    "main.a2a85c44.js.map": "/one-shot-pocha/static/js/main.a2a85c44.js.map",
     "787.a1aeabb7.chunk.js.map": "/one-shot-pocha/static/js/787.a1aeabb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f61eb34.css",
-    "static/js/main.abbb17a2.js"
+    "static/css/main.308600ec.css",
+    "static/js/main.a2a85c44.js"
   ]
 }
