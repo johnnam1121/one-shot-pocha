@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './Menu.css'
-import DarkChalk from '../assets/DarkChalk.jpeg';
+import DarkerChalk from '../assets/DarkerChalk.jpeg';
 import { appetizersLeft } from './MenuItems';
 import { appetizersRight } from './MenuItems';
 import { bbqLeft } from './MenuItems';
@@ -27,13 +27,15 @@ function Menu() {
       {/* Appetizers 안주*/}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'top',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           height: 'auto',
         }}>
-        <h1 className='text-center menuHeading'>Appetizers 안주</h1>
+        <Row>
+          <h1 className='text-center menuHeading'>Appetizers 안주</h1>
+        </Row>
         <Col md={{ span: 4, offset: 1 }} >
           {appetizersLeft.map((item) => {
             return (
@@ -52,7 +54,7 @@ function Menu() {
       {/* BBQ 고기구이*/}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -77,7 +79,7 @@ function Menu() {
       {/* Rice & Noodles 밥&면*/}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'bottom',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -102,7 +104,7 @@ function Menu() {
       {/* Extras 추가*/}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'bottom',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -127,7 +129,7 @@ function Menu() {
       {/* Special Dish 특별요리*/}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'bottom',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -152,7 +154,7 @@ function Menu() {
       {/* Fried Chicken 치킨  */}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'bottom',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -179,7 +181,7 @@ function Menu() {
       {/* Drinks */}
       <Row className='menuBackground mt-5 mb-5 mx-auto'
         style={{
-          backgroundImage: `url(${DarkChalk})`,
+          backgroundImage: `url(${DarkerChalk})`,
           backgroundPosition: 'bottom',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

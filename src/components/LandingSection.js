@@ -32,7 +32,7 @@ class LandingPage extends Component {
             </Row>
           </Col>
         </Row>
-        {/* socials bar */}
+        {/* Socials bar */}
         <Row style={{ backgroundColor: '#006a4e' }}>
           <Col className='text-center' md={{ span: 4, offset: 4 }}>
             <div className='socials mb-2'>
@@ -77,10 +77,10 @@ class LandingPage extends Component {
         </Row>
         {/* Karaoke Night */}
         <Row className='align-items-center mb-5 mt-5' style={{ backgroundColor: '#242526' }}>
-          <Col className='text-center mb-5' md={{ span: 4, offset: 2 }}>
+          <Col className='text-center mb-5' md={{ span: 4, offset: 1 }}>
             <img className='landingimage' src={require('../assets/sojulight.jpg')} alt="sojulight" />
           </Col>
-          <Col className='text-center' md={{ span: 4 }}>
+          <Col className='text-center' md={{ span: 5 }}>
             <h1 className='landingH1'>Karaoke all <span className='karaokeNight'>Night!!!</span></h1>
             <button className='infoButton'><Nav.Link className='navlink' as={Link} to="/Reservation">More Info</Nav.Link></button>
           </Col>
