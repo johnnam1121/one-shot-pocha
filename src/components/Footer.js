@@ -6,7 +6,7 @@ import EmailSubmit from './EmailSubmit';
 
 function Footer() {
   return (
-    <Container fluid >
+    <Container fluid style={{ backgroundColor: '#242526' }}>
       <Row style={{ backgroundColor: '#006a4e' }}>
         <Col className='text-center' md={{ span: 4, offset: 4 }}>
           <div className='socials mb-2'>
@@ -17,7 +17,7 @@ function Footer() {
           </div>
         </Col>
       </Row>
-      <Row style={{ backgroundColor: '#242526' }}>
+      <Row>
         <Col md={{ span: 3 }} className='text-center mt-5'>
           <img
             className='img-fluid footerimg2 removeImage'
@@ -51,11 +51,15 @@ function Footer() {
           <p className='footerlink'><a className='footerlink' href="tel::+7134678877"><FaPhone /> 713 467-8877</a></p>
         </Col>
         <Col md={{ span: 3 }} className='text-center mt-5' >
-          <EmailSubmit />
+          <h4 className='footerText'>Contact Us</h4>
+          <Col md={{ span: 6, offset: 3 }}>
+            <p className='footerText'>We welcome all feedback and would love to chat with you! If you have any questions, please feel free to send us an email!</p>
+          </Col>
+          <a href="mailto: ontshot.htx@gmail.com"><button className='footerbutton'>Email Us</button></a>
         </Col>
-        <Col className='text-center'>
-          <p style={{ color: 'grey' }}><FaCopyright /> All rights currently owned by John Nam</p>
-        </Col>
+      </Row>
+      <Row className='text-center'>
+        <p style={{ color: 'grey' }}><FaCopyright /> All rights currently owned by John Nam</p>
       </Row>
     </Container >
   )

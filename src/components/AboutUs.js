@@ -6,36 +6,33 @@ import './AboutUs.css';
 function AboutUs() {
   return (
     <Container fluid className='aboutBackground'>
-      <Row className='mt-3 mb-5'>
-        <h1 className='footerText text-center'>Our staff</h1>
-      </Row>
-      <Row className='mb-5'>
+      <Row className='mt-5 mb-5'>
         <Col md={{ span: 4, offset: 1 }}>
-          <h1 className='footerText'>One Shot Pocha Staff</h1>
-          <p className='footerText'>One Shot Pocha Staff information here filler textinformation here filler text
+          <h1 className='aboutUsText'>One Shot Pocha Staff</h1>
+          <p className='aboutUsText'>One Shot Pocha Staff information here filler textinformation here filler text
             information here filler textinformation here filler text</p>
-          <p className='footerText'>Want to join our staff? Send us an <a href="mailto: Johnnam93@gmail.com"><button className='aboutUsButton'>Email!</button></a></p>
-          <img className='removeImage img-fluid' src={require('../assets/sojulight.jpg')} alt='sojulight' />
+          <p className='aboutUsText'>Want to join our staff? Send us an <a href="mailto: Johnnam93@gmail.com"><button className='aboutUsButton'>Email!</button></a></p>
+          <img className='removeImage img-fluid' src={require('../assets/hostess.jpeg')} alt='hostess' width='75%'/>
         </Col>
         <Col md={{ span: 5 }}>
           <Row>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>Owner</p>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>John</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>Owner</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>John</p>
             </Col>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>Hyerimmie</p>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>etc</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>Hyerimmie</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>etc</p>
             </Col>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>JJ MOes</p>
-              <img className='img-fluid' src={Img1} />
-              <p className='footerText'>Tiffany</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>JJ MOes</p>
+              <img className='img-fluid aboutUsImg' src={Img1} />
+              <p className='aboutUsText text-center mb-3'>Tiffany</p>
             </Col>
           </Row>
         </Col>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './ImageGallery.css';
-import { photos1 } from './Photos';
-import { photos2 } from './Photos';
-import { photos3 } from './Photos';
-import { photos4 } from './Photos';
+import { photos1 } from './ImagePhotos';
+import { photos2 } from './ImagePhotos';
+import { photos3 } from './ImagePhotos';
+import { photos4 } from './ImagePhotos';
 import { FaCopyright, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp } from 'react-icons/fa';
 
 function ImageGallery() {

@@ -1,17 +1,16 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { InlineWidget } from "react-calendly";
 
 function Reservation() {
   return (
     <Container fluid>
       <Row style={{ backgroundColor: '#333333' }}>
-        <div className="App">
+        <Col>
           <InlineWidget
             styles={{
-              height: '125vh'
+              height: '155vh'
             }}
-
             pageSettings={{
               backgroundColor: '2d2e30',
               hideEventTypeDetails: false,
@@ -20,7 +19,7 @@ function Reservation() {
               textColor: 'ffebcd'
             }}
             url="https://calendly.com/oneshot-htx" />
-        </div>
+        </Col>
       </Row>
     </Container>
   )

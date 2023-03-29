@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
 import { FaFacebook, FaInstagram, FaTwitter, FaYelp } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import bottlewall from '../assets/bottlewalldark.jpeg';
+import oneshotbackground from '../assets/oneshotbackground.jpeg';
 import koreaNight from '../assets/koreaNight.jpg';
-import tintedRestaurant from '../assets/tintedRestaurant.jpg';
+import RestaurantDark from '../assets/RestaurantDark.jpeg';
 import './LandingSection.css';
 
 class LandingPage extends Component {
@@ -12,23 +12,25 @@ class LandingPage extends Component {
     return (
       <Container fluid className='landingbackground'>
         {/* Welcome Message */}
-        <Row className='align-items-center'
+        <Row className='align-items-center darkenBackground'
           style={{
-            backgroundImage: `url(${bottlewall})`,
-            backgroundPosition: 'center',
+            backgroundImage: `url(${oneshotbackground})`,
+            backgroundPosition: '0% 40%',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: 'auto',
           }}>
-          <Row style={{ marginTop: '40vh', marginBottom: '10vh' }}>
-            <Col lg={{ span: 4, offset: 4 }} className='opaicCol text-center'>
-              <h1 className='landingH1'>Welcome to <br />One-Shot!</h1>
-              <h4 className='welcomeMessage'>
-                Some info here fillerSome info here fillerSome info here fillerSome info here
-              </h4>
-              <button className='menuButton'><Nav.Link className='navlink' as={Link} to="/Menu">See Menu</Nav.Link></button>
-            </Col>
-          </Row>
+          <Col>
+            <Row style={{ marginTop: '40vh', marginBottom: '10vh' }}>
+              <Col md={{ span: 4, offset: 4 }} className='opaicCol text-center'>
+                <h1 className='landingH1'>Welcome to <br />One-Shot!</h1>
+                <h4 className='welcomeMessage'>
+                  Some info here fillerSome info here fillerSome info here fillerSome info here
+                </h4>
+                <button className='menuButton'><Nav.Link className='navlink' as={Link} to="/Menu">See Menu</Nav.Link></button>
+              </Col>
+            </Row>
+          </Col>
         </Row>
         {/* socials bar */}
         <Row style={{ backgroundColor: '#006a4e' }}>
@@ -58,7 +60,7 @@ class LandingPage extends Component {
         </Row>
         {/* Korean Food */}
         <Row className='align-items-center' style={{
-          backgroundImage: `url(${tintedRestaurant})`,
+          backgroundImage: `url(${RestaurantDark})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

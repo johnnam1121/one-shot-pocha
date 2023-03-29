@@ -2,13 +2,16 @@
   background-color: #242526;
 }
 
+.darkenBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 .opaicCol {
   background-color: rgba(0, 106, 78, 0.05);
   border-radius: 15%;
 }
 
 .landingimage {
-  height: 60%;
   width: 60%;
   border-radius: 10%;
   opacity: 0.9;
