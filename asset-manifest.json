@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/one-shot-pocha/static/css/main.f46ebe89.css",
-    "main.js": "/one-shot-pocha/static/js/main.447f06cf.js",
+    "main.css": "/one-shot-pocha/static/css/main.530059d8.css",
+    "main.js": "/one-shot-pocha/static/js/main.82e5c797.js",
     "static/js/787.c4e7f8f9.chunk.js": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels1.jpg": "/one-shot-pocha/static/media/pexels1.85cc7d17f98e49325816.jpg",
     "static/media/hostess.jpeg": "/one-shot-pocha/static/media/hostess.1e8128550729b688d495.jpeg",
-    "static/media/DarkChalk.jpeg": "/one-shot-pocha/static/media/DarkChalk.c7f2f4c70e0d7b48760b.jpeg",
     "static/media/oneshotbackground.jpeg": "/one-shot-pocha/static/media/oneshotbackground.f6efe02aecfcf05ab54e.jpeg",
+    "static/media/DarkerChalk.jpeg": "/one-shot-pocha/static/media/DarkerChalk.6dba7d8d469344f06f36.jpeg",
     "static/media/RestaurantDark.jpeg": "/one-shot-pocha/static/media/RestaurantDark.972af0a5c3b2ad5e5542.jpeg",
     "static/media/koreaNight.jpg": "/one-shot-pocha/static/media/koreaNight.b38e26ec48855d2054a7.jpg",
     "static/media/IU.jpg": "/one-shot-pocha/static/media/IU.e359a4e5d2865b5f5da5.jpg",
@@ -19,12 +19,12 @@
     "static/media/sojulight2.jpg": "/one-shot-pocha/static/media/sojulight2.ffa93cb1e6fbd3cc8c9a.jpg",
     "static/media/sojulight.jpg": "/one-shot-pocha/static/media/sojulight.d0fc696b56bd9880a46f.jpg",
     "index.html": "/one-shot-pocha/index.html",
-    "main.f46ebe89.css.map": "/one-shot-pocha/static/css/main.f46ebe89.css.map",
-    "main.447f06cf.js.map": "/one-shot-pocha/static/js/main.447f06cf.js.map",
+    "main.530059d8.css.map": "/one-shot-pocha/static/css/main.530059d8.css.map",
+    "main.82e5c797.js.map": "/one-shot-pocha/static/js/main.82e5c797.js.map",
     "787.c4e7f8f9.chunk.js.map": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f46ebe89.css",
-    "static/js/main.447f06cf.js"
+    "static/css/main.530059d8.css",
+    "static/js/main.82e5c797.js"
   ]
 }
