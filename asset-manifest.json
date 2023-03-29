@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/one-shot-pocha/static/css/main.6f20d6e3.css",
+    "main.css": "/one-shot-pocha/static/css/main.f46ebe89.css",
     "main.js": "/one-shot-pocha/static/js/main.447f06cf.js",
     "static/js/787.c4e7f8f9.chunk.js": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels1.jpg": "/one-shot-pocha/static/media/pexels1.85cc7d17f98e49325816.jpg",
@@ -19,12 +19,12 @@
     "static/media/sojulight2.jpg": "/one-shot-pocha/static/media/sojulight2.ffa93cb1e6fbd3cc8c9a.jpg",
     "static/media/sojulight.jpg": "/one-shot-pocha/static/media/sojulight.d0fc696b56bd9880a46f.jpg",
     "index.html": "/one-shot-pocha/index.html",
-    "main.6f20d6e3.css.map": "/one-shot-pocha/static/css/main.6f20d6e3.css.map",
+    "main.f46ebe89.css.map": "/one-shot-pocha/static/css/main.f46ebe89.css.map",
     "main.447f06cf.js.map": "/one-shot-pocha/static/js/main.447f06cf.js.map",
     "787.c4e7f8f9.chunk.js.map": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f20d6e3.css",
+    "static/css/main.f46ebe89.css",
     "static/js/main.447f06cf.js"
   ]
 }
