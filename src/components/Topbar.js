@@ -8,7 +8,7 @@ function TopBar() {
     <Container fluid >
       <Row className='shadow-lg topbarBackground'>
         <Col>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img src={require('../assets/logoname.png')} alt="logo" width="150" height="55" className="d-inline-block align-top rounded topbarlogo" />
           </Navbar.Brand>
         </Col>
