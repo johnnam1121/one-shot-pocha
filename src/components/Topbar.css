@@ -1,20 +1,18 @@
-.topbar {
+.topbarBackground {
   background-color: rgba(0, 106, 78, 1);
 }
 
 .topbarlink {
   color: blanchedalmond !important;
-  margin-right: 2vw;
+  text-align: right;
 }
 
 .topbarlink:visited {
   color: blanchedalmond;
-  margin-right: 2vw;
 }
 
 .topbarlink:active {
   color: blanchedalmond;
-  margin-right: 2vw;
 }
 
 .topbarlink:hover {
@@ -23,13 +21,4 @@
   text-shadow: 2px 2px #770000;
   background-color: transparent;
   text-decoration: underline;
-}
-
-.topbaritem {
-  text-align: right;
-  background-color: rgba(255, 255, 255 0.1)
-}
-
-.topbarlogo {
-  background-color: rgba(255, 255, 255 0.1)
 }

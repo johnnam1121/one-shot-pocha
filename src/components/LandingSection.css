@@ -2,8 +2,20 @@
   background-color: #242526;
 }
 
-.darkenBackground {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+.backgroundComputerView {
+  background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .backgroundPhoneView {
+    background-position: top;
+    background-size: 100vw 100%;
+    /* background-repeat: no-repeat; */
+    height: auto;
+  }
 }
 
 .opaicCol {
@@ -17,7 +29,12 @@
   opacity: 0.9;
 }
 
-@media (max-width: 700px) {
+.pictureWall {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 768px) {
   .removeImage {
     display: none;
   }

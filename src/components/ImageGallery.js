@@ -1,11 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { FaInstagram } from 'react-icons/fa';
 import './ImageGallery.css';
-import { photos1 } from './ImagePhotos';
-import { photos2 } from './ImagePhotos';
-import { photos3 } from './ImagePhotos';
-import { photos4 } from './ImagePhotos';
-import { FaCopyright, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp } from 'react-icons/fa';
+import { photos1, photos2, photos3, photos4 } from './ImagePhotos';
 
 function ImageGallery() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
 import { FaCopyright, FaFacebook, FaInstagram, FaPhone, FaTwitter, FaYelp } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import EmailSubmit from './EmailSubmit';
+import './Footer.css';
 
 function Footer() {
   return (

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
 import { FaFacebook, FaInstagram, FaTwitter, FaYelp } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-import oneshotbackground from '../assets/oneshotbackground.jpeg';
 import koreaNight from '../assets/koreaNight.jpg';
+import oneshotbackground from '../assets/oneshotbackground.jpeg';
 import RestaurantDark from '../assets/RestaurantDark.jpeg';
 import './LandingSection.css';
 
@@ -12,13 +12,9 @@ class LandingPage extends Component {
     return (
       <Container fluid className='landingbackground'>
         {/* Welcome Message */}
-        <Row className='align-items-center darkenBackground'
+        <Row className='align-items-center backgroundComputerView backgroundPhoneView'
           style={{
             backgroundImage: `url(${oneshotbackground})`,
-            backgroundPosition: '0% 40%',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            height: 'auto',
           }}>
           <Col>
             <Row style={{ marginTop: '40vh', marginBottom: '10vh' }}>
@@ -44,18 +40,18 @@ class LandingPage extends Component {
           </Col>
         </Row>
         {/* Picture wall */}
-        <Row className='align-items-center mb-5 mt-5' style={{ backgroundColor: '#242526' }}>
+        <Row className='align-items-center' style={{ backgroundColor: '#242526' }}>
           <Col className='text-center' md={{ span: 3 }}>
-            <img className='landingimage removeImage' src={require('../assets/chalkWall.jpg')} alt="chalkWall" />
+            <img className='landingimage pictureWall removeImage' src={require('../assets/chalkWall.jpg')} alt="chalkWall" />
           </Col>
           <Col className='text-center' md={{ span: 3 }}>
-            <img className='landingimage removeImage' src={require('../assets/IU.jpg')} alt="IU" />
+            <img className='landingimage pictureWall removeImage' src={require('../assets/IU.jpg')} alt="IU" />
           </Col>
           <Col className='text-center' md={{ span: 3 }}>
-            <img className='landingimage removeImage' src={require('../assets/frog.jpg')} alt="frog" />
+            <img className='landingimage pictureWall removeImage' src={require('../assets/frog.jpg')} alt="frog" />
           </Col>
           <Col className='text-center' md={{ span: 3 }}>
-            <img className='landingimage removeImage' src={require('../assets/sojulight2.jpg')} alt="sojulight2" />
+            <img className='landingimage pictureWall removeImage' src={require('../assets/sojulight2.jpg')} alt="sojulight2" />
           </Col>
         </Row>
         {/* Korean Food */}
@@ -66,11 +62,11 @@ class LandingPage extends Component {
           backgroundRepeat: 'no-repeat',
           height: '80vh',
         }}>
-          <Col className='text-center mb-5' md={{ span: 4, offset: 2 }}>
+          <Col className='text-center' md={{ span: 4, offset: 2 }}>
             <h1 className='landingH1'>Try some of our authentic <span className='koreanFood'>Korean Food!</span></h1>
             <button className='menuButton'><Nav.Link className='navlink' as={Link} to="/Menu">See Menu</Nav.Link></button>
           </Col>
-          <Col className='text-center mb-5' md={{ span: 4 }}>
+          <Col className='text-center' md={{ span: 4 }}>
             <img className='landingimage' src={require('../assets/armysoup.jpg')} alt="armysoup" />
           </Col>
 

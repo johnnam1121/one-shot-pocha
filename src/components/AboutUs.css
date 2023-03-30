@@ -1,5 +1,11 @@
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .removeImage {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .showStaffMobileView {
     display: none;
   }
 }
@@ -27,13 +33,4 @@
 
 .aboutUsButton:hover {
   scale: 1.05;
-}
-
-@media (max-width: 700px) {
-  .aboutUsImg {
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }

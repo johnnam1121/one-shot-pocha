@@ -1,25 +1,8 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import './Menu.css'
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import DarkerChalk from '../assets/DarkerChalk.jpeg';
-import { appetizersLeft } from './MenuItems';
-import { appetizersRight } from './MenuItems';
-import { bbqLeft } from './MenuItems';
-import { bbqRight } from './MenuItems';
-import { riceAndNoodleLeft } from './MenuItems';
-import { riceAndNoodleRight } from './MenuItems';
-import { extrasLeft } from './MenuItems';
-import { extrasRight } from './MenuItems';
-import { specialsLeft } from './MenuItems';
-import { specialsRight } from './MenuItems';
-import { friedChicken } from './MenuItems';
-import { soju } from './MenuItems';
-import { jinroFlavoredSoju } from './MenuItems';
-import { soonHariFlavoredSoju } from './MenuItems';
-import { goodDayFlavoredSoju } from './MenuItems';
-import { sojuCocktailLeft } from './MenuItems';
-import { sojuCocktailCenter } from './MenuItems';
-import { sojuCocktailRight } from './MenuItems';
+import './Menu.css';
+import { appetizersLeft, appetizersRight, bbqLeft, bbqRight, extrasLeft, extrasRight, friedChicken, goodDayFlavoredSoju, jinroFlavoredSoju, riceAndNoodleLeft, riceAndNoodleRight, soju, sojuCocktailCenter, sojuCocktailLeft, sojuCocktailRight, soonHariFlavoredSoju, specialsLeft, specialsRight } from './MenuItems';
 
 function Menu() {
   return (
