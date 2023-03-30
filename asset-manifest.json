@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/one-shot-pocha/static/css/main.530059d8.css",
-    "main.js": "/one-shot-pocha/static/js/main.82e5c797.js",
+    "main.css": "/one-shot-pocha/static/css/main.35e33011.css",
+    "main.js": "/one-shot-pocha/static/js/main.b89f70c8.js",
     "static/js/787.c4e7f8f9.chunk.js": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pexels1.jpg": "/one-shot-pocha/static/media/pexels1.85cc7d17f98e49325816.jpg",
     "static/media/hostess.jpeg": "/one-shot-pocha/static/media/hostess.1e8128550729b688d495.jpeg",
@@ -19,12 +19,12 @@
     "static/media/sojulight2.jpg": "/one-shot-pocha/static/media/sojulight2.ffa93cb1e6fbd3cc8c9a.jpg",
     "static/media/sojulight.jpg": "/one-shot-pocha/static/media/sojulight.d0fc696b56bd9880a46f.jpg",
     "index.html": "/one-shot-pocha/index.html",
-    "main.530059d8.css.map": "/one-shot-pocha/static/css/main.530059d8.css.map",
-    "main.82e5c797.js.map": "/one-shot-pocha/static/js/main.82e5c797.js.map",
+    "main.35e33011.css.map": "/one-shot-pocha/static/css/main.35e33011.css.map",
+    "main.b89f70c8.js.map": "/one-shot-pocha/static/js/main.b89f70c8.js.map",
     "787.c4e7f8f9.chunk.js.map": "/one-shot-pocha/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.530059d8.css",
-    "static/js/main.82e5c797.js"
+    "static/css/main.35e33011.css",
+    "static/js/main.b89f70c8.js"
   ]
 }
