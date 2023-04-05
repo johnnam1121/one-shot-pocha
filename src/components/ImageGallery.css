@@ -12,12 +12,16 @@
 }
 
 .galleryImage:hover {
-  filter: grayscale(1);
+  filter: grayscale(0.6);
   overflow: hidden;
   transform: scale(1.1);
   transition: .5s;
-
 }
+
+.galleryImage:not(:hover) {
+  transition: .5s;
+}
+
 
 .galleryColumn {
   display: flex;
@@ -65,4 +69,8 @@
   color: #770000;
   transition: .5s;
   scale: 1.05;
+}
+
+.galleryInstaLink:not(:hover) {
+  transition: .5s;
 }

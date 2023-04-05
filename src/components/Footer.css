@@ -12,46 +12,44 @@
   color: blanchedalmond;
 }
 
-.footeritem {
-  text-align: right;
-}
-
-.footerimg {
+.footerLogo {
   width: 50%;
   background-color: rgba(255, 255, 255, 0.032);
   border-radius: 50%;
 }
 
-.footerimg2 {
+.footerFoodImg {
   width: 50vw;
   border-radius: 40%;
   opacity: 0.9;
 }
 
-.footerlink {
+.footerLink {
   color: blanchedalmond !important;
   text-decoration: none;
 }
 
-.footerlink:visited {
+.footerLink:visited {
   color: blanchedalmond;
 }
 
-.footerlink:active {
+.footerLink:active {
   color: blanchedalmond;
 }
 
-.footerlink:hover {
-  /* color: #770000; */
+.footerLink:hover {
   scale: 1.05;
   transition: .5s;
-
   text-shadow: 2px 2px #770000;
   background-color: transparent;
   text-decoration: underline;
 }
 
-.footerbutton {
+.footerLink:not(:hover) {
+  transition: .5s;
+}
+
+.footerButton {
   color: blanchedalmond;
   font-size: 1.5em;
   background-color: #006a4e;
@@ -59,8 +57,13 @@
   border: 2px solid #333333;
 }
 
-.footerbutton:hover {
+.footerButton:hover {
   scale: 1.05;
+  transition: .5s;
+}
+
+.footerButton:not(:hover) {
+  transition: .5s;
 }
 
 .socials {

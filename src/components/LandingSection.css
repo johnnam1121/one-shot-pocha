@@ -23,10 +23,20 @@
   border-radius: 15%;
 }
 
-.landingimage {
+.landingImage {
   width: 60%;
   border-radius: 10%;
   opacity: 0.9;
+}
+
+.landingImage:hover {
+  transform: scale(1.025);
+  filter: grayscale(0.6);
+  transition: .5s;
+}
+
+.landingImage:not(:hover) {
+  transition: .5s;
 }
 
 .pictureWall {
@@ -58,8 +68,14 @@
 }
 
 .menuButton:hover {
-  scale: 1.05
+  scale: 1.05;
+  transition: .5s;
 }
+
+.menuButton:not(:hover) {
+  transition: .5s;
+}
+
 
 .infoButton {
   color: blanchedalmond;
@@ -70,7 +86,13 @@
 }
 
 .infoButton:hover {
-  scale: 1.05
+  scale: 1.05;
+  transition: .5s;
+
+}
+
+.infoButton:not(:hover) {
+  transition: .5s;
 }
 
 .koreanFood {

@@ -33,4 +33,9 @@
 
 .aboutUsButton:hover {
   scale: 1.05;
+  transition: .5s;
+}
+
+.aboutUsButton:not(:hover) {
+  transition: .5s;
 }

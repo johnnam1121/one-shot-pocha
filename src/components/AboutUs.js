@@ -3,6 +3,13 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Img1 from '../assets/pexels1.jpg';
 import './AboutUs.css';
 
+import { leftStaff } from './AboutUsPhotos'
+import { centerStaff } from './AboutUsPhotos'
+import { rightStaff } from './AboutUsPhotos'
+import { mobileLeft } from './AboutUsPhotos'
+import { mobileRight } from './AboutUsPhotos'
+
+
 function AboutUs() {
   return (
     <Container fluid className='aboutBackground'>
@@ -17,40 +24,60 @@ function AboutUs() {
         <Col md={{ span: 5 }}>
           <Row>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>Owner</p>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>John</p>
+              {leftStaff.map((item) => {
+                return (
+                  <div>
+                    <img className='img-fluid removeImage aboutUsImg' src={item.image} />
+                    <p className='aboutUsText removeImage text-center mb-3'>{item.name}</p>
+                  </div>
+                )
+              })}
             </Col>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>Hyerimmie</p>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>etc</p>
+              {centerStaff.map((item) => {
+                return (
+                  <div>
+                    <img className='img-fluid removeImage aboutUsImg' src={item.image} />
+                    <p className='aboutUsText removeImage text-center mb-3'>{item.name}</p>
+                  </div>
+                )
+              })}
             </Col>
             <Col md={{ span: 4 }}>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>JJ MOes</p>
-              <img className='img-fluid removeImage aboutUsImg' src={Img1} />
-              <p className='aboutUsText removeImage text-center mb-3'>Tiffany</p>
+              {rightStaff.map((item) => {
+                return (
+                  <div>
+                    <img className='img-fluid removeImage aboutUsImg' src={item.image} />
+                    <p className='aboutUsText removeImage text-center mb-3'>{item.name}</p>
+                  </div>
+                )
+              })}
             </Col>
           </Row>
           <Row>
             <Col className='showStaffMobileView'>
-              <img className='img-fluid aboutUsImg' src={Img1} />
-              <p className='aboutUsText text-center mb-3'>JJ MOes</p>
-              <img className='img-fluid aboutUsImg' src={Img1} />
-              <p className='aboutUsText text-center mb-3'>Tiffany</p>
+              {mobileLeft.map((item) => {
+                return (
+                  <div>
+                    <img className='img-fluid aboutUsImg' src={item.image} />
+                    <p className='aboutUsText text-center mb-3'>{item.name}</p>
+                  </div>
+                )
+              })}
             </Col>
             <Col className='showStaffMobileView'>
-              <img className='img-fluid aboutUsImg' src={Img1} />
-              <p className='aboutUsText text-center mb-3'>Hyerimmie</p>
-              <img className='img-fluid aboutUsImg' src={Img1} />
-              <p className='aboutUsText text-center mb-3'>etc</p>
+              {mobileRight.map((item) => {
+                return (
+                  <div>
+                    <img className='img-fluid aboutUsImg' src={item.image} />
+                    <p className='aboutUsText text-center mb-3'>{item.name}</p>
+                  </div>
+                )
+              })}
             </Col>
           </Row>
         </Col>
-      </Row>
+      </Row >
     </Container >
   )
 }

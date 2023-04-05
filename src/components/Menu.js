@@ -16,9 +16,7 @@ function Menu() {
           backgroundRepeat: 'no-repeat',
           height: 'auto',
         }}>
-        <Row>
-          <h1 className='text-center menuHeading'>Appetizers 안주</h1>
-        </Row>
+        <h1 className='text-center menuHeading'>Appetizers 안주</h1>
         <Col md={{ span: 4, offset: 1 }} >
           {appetizersLeft.map((item) => {
             return (
@@ -246,6 +244,12 @@ function Menu() {
             </Row>
           </Col>
         </Row>
+      </Row>
+      {/* Menu Download */}
+      <Row>
+        <Col md={{ span: 4, offset: 4 }}>
+          <h1 className='menuText'>Downloadable Menu</h1>
+        </Col>
       </Row>
     </Container>
   )

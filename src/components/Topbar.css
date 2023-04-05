@@ -2,23 +2,28 @@
   background-color: rgba(0, 106, 78, 1);
 }
 
-.topbarlink {
+.topbarLink {
   color: blanchedalmond !important;
   text-align: right;
 }
 
-.topbarlink:visited {
+.topbarLink:visited {
   color: blanchedalmond;
 }
 
-.topbarlink:active {
+.topbarLink:active {
   color: blanchedalmond;
 }
 
-.topbarlink:hover {
+.topbarLink:hover {
   color: blanchedalmond;
   scale: 1.05;
+  transition: .5s;
   text-shadow: 2px 2px #770000;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.topbarLink:not(:hover) {
+  transition: .5s;
 }

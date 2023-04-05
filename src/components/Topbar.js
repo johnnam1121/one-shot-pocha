@@ -20,11 +20,11 @@ function TopBar() {
             </button>
             <div className="collapse navbar-collapse" id="navbar-collapse">
               <ul className="navbar-nav justify-content-end">
-                <li><Nav.Link className='topbarlink' as={Link} to="/">Home</Nav.Link></li>
-                <li><Nav.Link className='topbarlink' as={Link} to="/Menu">Menu</Nav.Link></li>
-                <li><Nav.Link className='topbarlink' as={Link} to="/Gallery">Gallery</Nav.Link></li>
-                <li><Nav.Link className='topbarlink' as={Link} to="/Reservation">Reservations</Nav.Link></li>
-                <li><Nav.Link className='topbarlink' as={Link} to="/AboutUs">About Us</Nav.Link></li>
+                <li><Nav.Link className='topbarLink' as={Link} to="/">Home</Nav.Link></li>
+                <li><Nav.Link className='topbarLink' as={Link} to="/Menu">Menu</Nav.Link></li>
+                <li><Nav.Link className='topbarLink' as={Link} to="/Gallery">Gallery</Nav.Link></li>
+                <li><Nav.Link className='topbarLink' as={Link} to="/Reservation">Reservations</Nav.Link></li>
+                <li><Nav.Link className='topbarLink' as={Link} to="/AboutUs">About Us</Nav.Link></li>
               </ul>
             </div>
           </nav>
